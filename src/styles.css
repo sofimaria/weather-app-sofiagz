@@ -99,9 +99,8 @@ img {
   bottom: 0px;
   left: 55px;
 }
-.weather-info {
+.temp-info {
   text-align: center;
-  font-size: 20px;
 }
 
 .units {
