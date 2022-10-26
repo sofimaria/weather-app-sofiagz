@@ -13,13 +13,11 @@ h2 {
   font-family: "Roboto Slab", serif;
   text-transform: capitalize;
 }
-h2,
-p {
+h2 {
   font-weight: 400;
   color: rgb(22, 17, 179);
   font-size: calc(1.325rem + 0.9vw);
 }
-
 body {
   background: linear-gradient(65deg, #b2c8df, #f8f9d7);
   position: relative;
@@ -38,6 +36,19 @@ input[type="submit"] {
   line-height: 40px;
   border: 1px solid #00bbf0;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  position: relative;
+  top: 25px;
+}
+img {
+  position: relative;
+  left: 100px;
+}
 
 .container {
   margin: 10px auto;
@@ -55,6 +66,9 @@ input[type="submit"] {
   text-align: center;
   font-size: 20px;
   font-weight: 400;
+  font-weight: 400;
+  color: rgb(22, 17, 179);
+  font-size: calc(1.325rem + 0.9vw);
 }
 .search-location-box {
   text-align: center;
@@ -100,16 +114,6 @@ input[type="submit"] {
   text-align: center;
   font-size: 20px;
 }
-ul {
-  margin: 0;
-  padding: 0;
-}
-li {
-  list-style: none;
-  position: relative;
-  top: 25px;
-}
-img {
-  position: relative;
-  left: 100px;
+.coded-by {
+  text-align: center;
 }
