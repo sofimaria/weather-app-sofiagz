@@ -109,13 +109,19 @@ a {
 
 .weather-forecast-date {
   font-size: 20px;
+  color: rgb(22, 17, 179);
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
 }
 
-.weather-forecast-temperature-min {
-  opacity: 3;
+.weather-forecast-temperature-max {
+  opacity: 10;
 }
 
 .weather-forecast-temperatures {
   font-size: 20px;
   margin-bottom: 30px;
+  color: rgb(22, 17, 179);
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
 }
