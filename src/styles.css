@@ -45,9 +45,9 @@ li {
   position: relative;
   top: 25px;
 }
-img {
-  position: relative;
-  left: 100px;
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -73,33 +73,9 @@ img {
   text-align: center;
   margin-top: 0px;
 }
-
-.snow-icone {
-  color: #47b5ff;
-  font-size: 40px;
-}
-.winter-icone {
-  color: #47b5ff;
-  font-size: 30px;
+.main-icon {
   position: relative;
-  top: 10px;
-  right: -110px;
-}
-.summer-icone {
-  font-size: 30px;
-  color: #ffa500;
-  position: relative;
-  left: 45px;
-}
-.temp-icone {
-  color: #47b5ff;
-  font-size: 30px;
-  position: relative;
-  bottom: 0px;
-  left: 55px;
-}
-.temp-info {
-  text-align: center;
+  left: 100px;
 }
 
 .units {
@@ -125,6 +101,21 @@ img {
 .active:hover {
   text-decoration: none;
 }
-a {
-  text-decoration: none;
+.weather-forecast {
+  margin-top: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 3;
+}
+
+.weather-forecast-temperatures {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
